@@ -6,7 +6,6 @@ export default function Presente(){
             <div className={styles.caixa}></div>
             <div className={styles.laco1}></div>
             <div className={styles.laco2}></div>
-
         </div>
     )
 }
