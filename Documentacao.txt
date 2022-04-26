@@ -1,0 +1,27 @@
+pre-renderização de paginas
+1* - static
+2* - server side rendering
+
+SPA (cliente)
+SSR (Server) - runtime
+--> dif - gera conteudo dinamicamente a cada requisição
+SSG (server) - build
+--> dif - gera pagina na hora do building / estatica, arquivo serve todas as requisições
+
+SEO --> otimização de sistema de busca -> SSR e SSG
+
+SPA ------>
+
+Main frame ->
+  rica <- servidor -> webServer -> terminal(browser) -> SPA-> parte feita no servidor porem com um cliente rico com processamento response JSON.
+**************************************************************
+                  Request(url)
+        Browser --------------> Servidor -> Js/html
+                  response(JSON)
+                <--------------
+                  Request
+                -------------->
+                  response(JSON)
+                <--------------
+
+

@@ -1,5 +1,5 @@
 {
-  "name": "tabuleiro",
+  "name": "renderizacao",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "12.1.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.2"
+    "babel-eslint": "^10.1.0",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
   }
 }
